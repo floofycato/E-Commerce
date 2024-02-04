@@ -167,6 +167,7 @@ export function renderOrderSummary() {
     quantityLabel.innerHTML = newQuantity;
 
     updateCartQuantity();
+    renderPaymentSummary();
   };
 
   document.querySelectorAll('.js-save-link')
